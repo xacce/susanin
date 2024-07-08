@@ -1,0 +1,27 @@
+﻿{
+  "name": "com.xacce.susanin.hybrid",
+  "references": [
+    "Unity.Burst",
+    "Unity.Transforms",
+    "Unity.Transforms.Hybrid",
+    "Unity.Entities",
+    "Unity.Entities.Hybrid",
+    "Unity.Mathematics",
+    "Unity.Collections",
+    "XaDotsCore.Hybrid",
+    "XaDotsCore.Runtime",
+    "Unity.AI.Navigation",
+    "NavMeshDots.Runtime",
+    "com.xacce.susanin.runtime"
+  ],
+  "includePlatforms": [
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

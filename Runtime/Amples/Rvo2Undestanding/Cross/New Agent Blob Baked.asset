@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03513c31ffc84c1f845494633ed98516, type: 3}
+  m_Name: New Agent Blob Baked
+  m_EditorClassIdentifier: 
+  blob_s:
+    acceleration: 15
+    stoppingDistanceSq: 0.1
+    baseSpeed: 2
+    repathRate: 0
+    extents:
+      x: 0
+      y: 0
+      z: 0
+    agentTypeId: 0
+    areaMask: -1

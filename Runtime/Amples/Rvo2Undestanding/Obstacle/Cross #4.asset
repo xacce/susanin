@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7efe7dc43d14f028903dca6ffce9584, type: 3}
+  m_Name: Cross #4
+  m_EditorClassIdentifier: 
+  data_s:
+    timeHorizon: 0.1
+    timeHorizonObst: 2
+    timeStep: 0.25
+    maxNeighbours: 10
+    neighborsExtents:
+      x: 5
+      y: 1
+      z: 5
+    radius: 0.5
+    radiusObst: 0.5
