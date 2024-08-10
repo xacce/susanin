@@ -1,5 +1,6 @@
 ﻿{
   "name": "com.xacce.susanin.hybrid",
+  "rootNamespace": "Xacce.Susanin.Hybrid",
   "references": [
     "Unity.Burst",
     "Unity.Transforms",

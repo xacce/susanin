@@ -2,6 +2,7 @@
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
+using Xacce.Susanin.Runtime.Amples.FixedDestination;
 
 namespace Amples.FixedDestination
 {

@@ -1,12 +1,12 @@
 ﻿using System;
-using BlobActor.Runtime;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
+using Xacce.BlobActor.Runtime;
 using Random = Unity.Mathematics.Random;
 
-namespace Amples.RandomAgents
+namespace Xacce.Susanin.Runtime.Amples.RandomAgents
 {
     public partial struct DemoAgentRandomDestinations : IComponentData
     {
@@ -28,7 +28,7 @@ namespace Amples.RandomAgents
         public void OnUpdate(ref SystemState state)
         {
             var buff = SystemAPI.GetSingletonBuffer<NavMeshSearchPath>();
-            foreach (var (agent, d, ltw, entity) in SystemAPI.Query<RefRO<ActorRuntime>, RefRW<DemoAgentRandomDestinations>, RefRO<LocalToWorld>>().WithEntityAccess())
+            foreach (var (agent, d, ltw, entity) in SystemAPI.Query<RefRO<BlobActorFlags>, RefRW<DemoAgentRandomDestinations>, RefRO<LocalToWorld>>().WithEntityAccess())
             {
                 var dRo = d.ValueRO;
                 dRo.currentDelay -= SystemAPI.Time.DeltaTime;

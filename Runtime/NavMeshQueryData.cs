@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using UnityEngine.Experimental.AI;
 
-namespace Jobs
+namespace Xacce.Susanin.Runtime
 {
     public partial struct NavMeshQueryData
     {

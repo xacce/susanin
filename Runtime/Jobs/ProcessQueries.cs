@@ -5,10 +5,10 @@ using Unity.Entities;
 using Unity.Jobs;
 using UnityEngine.Experimental.AI;
 
-namespace Jobs
+namespace Xacce.Susanin.Runtime.Jobs
 {
     [BurstCompile]
-    public partial struct ProcessQueriesJob : IJob
+    public partial struct SusaninProcessQueriesJob : IJob
     {
         [NativeDisableContainerSafetyRestriction]
         public EntityCommandBuffer.ParallelWriter ecb;

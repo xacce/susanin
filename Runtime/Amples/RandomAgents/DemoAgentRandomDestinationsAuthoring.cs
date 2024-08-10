@@ -1,5 +1,6 @@
 ﻿using Unity.Entities;
 using UnityEngine;
+using Xacce.Susanin.Runtime.Amples.RandomAgents;
 
 #if UNITY_EDITOR
 namespace Amples.RandomAgents
